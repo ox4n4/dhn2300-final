@@ -22,7 +22,7 @@ def get_recipe():
 drink_recipe = get_recipe()
 
 if drink_recipe is not None:
-    print("Here's your info: ")
+    print("The cocktail recipe is:")
     for recipe in drink_recipe.items():
         print(recipe)
 
